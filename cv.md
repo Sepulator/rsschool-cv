@@ -1,7 +1,7 @@
 # Yuri Skrypal
 ## Contacts
  * Location: Kyiv, Ukraine
- * Phone: +38068 120-99-08
+ * Discord: [Sepul#8288](https://discord.com/users/Sepul#8288)
  * Email: yjura@protonmail.com
  * GitHub: [sepulator](https://github.com/Sepulator)
 ## About Me

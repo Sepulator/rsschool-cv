@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <title>cv</title>
+</head>
+<body class="body">
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#aboutme" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills </a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#work" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container main-container">
+      <section class="section-profile">
+        <img src="./assets/photo.jpg" alt="photo" class="section-logo">
+        <div class="section-profile-name">
+          <h1 class="section-profile-title">Yuri Skrypal</h1>
+          <h3 class="section-profile-subtitle">Level Designer</h3>
+        </div>
+      </section>
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="section-list">
+          <li class="section-item">Location: Kyiv, Ukraine</li>
+          <li class="section-item section-link">Discord: <a href="https://discord.com/users/Sepul#8288" title="discord" target="_blank">Sepul#8288</a></li>
+          <li class="section-item section-link">Email: <a href="mailto:yjura@protonmail.com" title="email">yjura@protonmail.com</a></li>
+          <li class="section-item section-link">GitHub: <a href="https://github.com/Sepulator" title="github" target="_blank">sepulator</a></li>
+        </ul>
+      </section>
+      <section class="section" id="aboutme">
+        <h2 class="section-title">About Me</h2>
+        <p>As a game lovers and hard-core player I started working as customer support specialist in game studio. Being teamplayer lead me to QA department to help testing FPS games. My long journey in game developers extremely changed. Today I'm learning Front-end development in RSSchool.</p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="section-list-title">
+          <li class="section-item">HTML, CSS3</li>
+          <li class="section-item">JavaScript (Basic)</li>
+          <li class="section-item">Git, GitHub</li>
+          <li class="section-item">Blueprints, Unreal Editor 4</li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code Example</h2>
+        <pre class="pre">const encrypt = (text) =>{
+   let result = '';
+   for (let i = 0; i &lt; text.length; i += 2){
+     const nextChar = text[i+1] || '';
+     result =`${result}${nextChar}${text[i]}`;
+   }
+   return result;
+ }
+        </pre>
+      </section>
+      <section class="section" id="work">
+        <h2 class="section-title">Work Experience</h2>
+        <ul class="section-list-title">
+          <li class="section-item">Customer Support Specialist</li>
+          <li class="section-item">Game Tester</li>
+          <li class="section-item">Technical Support</li>
+          <li class="section-item">Game Designer</li>
+          <li class="section-item">Level Designer</li>
+          <li class="section-item">Junior Front-End Developer</li>
+        </ul>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">Education and courses</h2>
+        <ul class="section-list-title">
+          <li class="section-item">CCNA Routing and Switching (Cisco Network academy)</li>
+          <li class="section-item">JavaScript/Front-end. Stage 0</li>
+          <li class="section-item">Kyiv National Technical University</li>
+        </ul>
+      </section>
+      <section class="section section-last" id="english">
+        <h2 class="section-title">English</h2>
+        <p>B1 - Pre-Intermediate</p>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer-container">
+      <div>© 2022 <a href="https://github.com/Sepulator" class="nav-link">sepulator</a></div>
+      <a href="https://rs.school/js/" class="footer-url"></a>
+    </div>
+  </footer>
+</body>
+</html>

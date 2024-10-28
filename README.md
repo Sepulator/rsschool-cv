@@ -1,1 +1,1 @@
-# rsschool-cv
+https://sepulator.github.io/rsschool-cv/cv
